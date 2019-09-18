@@ -1,0 +1,116 @@
+*
+{
+	font-family:Verdana,Arial;
+}
+
+html, body
+{
+	height:100%;
+}
+
+body
+{
+	position:relative;
+	background:linear-gradient(#f6f6f6, #1797c0) no-repeat; /* Degrade de fond*/
+	background-attachment:fixed;
+}
+
+div#loginModule
+{
+	position:absolute;
+    top:0; left:0; bottom:0; right:0;
+    margin:auto;
+	height:540px;
+	width:350px;
+	overflow:visible;
+	text-align:center;
+}
+
+div#loginModule>header
+{
+	background:#1797c0;
+	border-radius:10px 10px 0px 0px;
+	box-shadow:0px 5px 10px rgba(0,0,0,0.3);
+}
+
+div#loginModule>header>h1
+{
+	font-size:20pt; /* Taille police titre */
+	text-align:center;
+	line-height:50px;
+	color:white;
+	font-weight:normal;
+}
+
+div#loginContent
+{
+	display:none;
+	background:white;
+	height:430px;
+	box-shadow:0px 5px 10px rgba(0,0,0,0.3);
+	border-radius:0px 0px 10px 10px;
+	padding:40px 0px 20px 0px;
+}
+
+div#loginContent>img
+{
+	height:100px;
+	display:block;
+	margin:0px auto 0px auto;
+}
+
+div#loginContent form
+{
+	margin-top:30px;
+}
+
+div#loginContent form>input
+{
+	display: block;
+	padding:8px 10px;
+	margin:20px auto 0px auto;
+	width:80%;
+	font-size:16pt; /* Taille police champs */
+	border:1px solid #aaa;
+	box-shadow:inset 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+div#loginContent form>input:first-child
+{
+	margin:auto;
+}
+
+div#loginContent p
+{
+	font-size:14pt; /* Taille police de status */
+	margin-top:30px;
+}
+
+div#loginContent .bad_status
+{
+	color:red;
+}
+
+div#loginContent .button
+{
+	display:inline-block;
+	border:0;
+	border-radius:4px;
+	color:white;
+	cursor:pointer;
+	outline:0;
+	padding:10px 16px;
+	transition:.1s linear;
+	font-size:24px; /* Taille police bouton */
+	background:#35b4e9;
+	box-shadow:0px 5px 0px #0489C3;
+	text-decoration:none;
+	margin:30px auto 0px auto;
+}
+
+div#loginContent .button:active
+{
+	background: #35b4e9;
+	box-shadow: 0 2px 0 #0489C3;
+	transform: translateY(3px);
+}

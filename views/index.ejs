@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Homepage</title>
+  <link rel="stylesheet" media="screen" href="\Styles\style_reset.css" />
+  <link rel="stylesheet" media="screen" href="\Styles\index_style.css" />
+  <link rel="shortcut icon" href="\images\favicon.ico" />
+  <script type="text/javascript" src="\Scripts\jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="\Scripts\script_index.js"></script>
+  <script type="text/javascript" src="Scripts\script_popup.js"></script>
+
+</head>
+<body>
+<div id="loginModule">
+  <header>
+    <h1>Device Simulator</h1>
+  </header>
+  <div id="loginContent">
+    <img src="\images\logo_m2m.jpg" />
+    <form action="" method="post">
+      <input type="text" name="id" placeholder="Device ID" />
+      <input type="text" name="type" placeholder="Type" />
+      <input type="text" name="value" placeholder="Value" />
+      <button class="button" value="Submit" type="submit">Submit</button>
+    </form>
+    <p class="status">Server answer: <%= title %></p>
+    <br>
+  </div>
+</div>
+</body>
+</html>

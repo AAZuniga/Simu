@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Commands</title>
+  <link rel="stylesheet" media="screen" href="../Styles/style_reset.css" />
+  <link rel="stylesheet" media="screen" href="../Styles/style.css" />
+  <link rel="shortcut icon" href="../images/favicon.ico" />
+  <script type="text/javascript" src="../Scripts/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="../Scripts/script_menu.js"></script>
+  <script type="text/javascript" src="../Scripts/script_categories.js"></script>
+</head>
+<body>
+<div id="pageWrapper">
+  <header id="pageHeader">
+    <section>
+      <img id="headerLogo" src="../images/logo_m2m.jpg" />
+      <h1 id="headerTitle">Commands tester </h1>
+    </section>
+  </header>
+  <section>
+    <section id="pageContent">
+      <header>
+        <img src="../images/account_icon.png" />
+      </header>
+      <section class="detailModule">
+        <h1><img src="../images/black_arrow.png" />Device Parameters</h1>
+        <table>
+          <tr><td class="title">Parameter 1</td><td><%=device[0].par1%></td></tr>
+          <tr><td class="title">Parameter 2</td><td><%=device[0].par2%></td></tr>
+          <tr><td class="title">Parameter 3</td><td><%=device[0].par3%></td></tr>
+          <tr><td class="title">Parameter 4</td><td><%=device[0].par4%></td></tr>
+        </table>
+      </section>
+    </section>
+  </section>
+  <footer id="pageFooter">
+    <p>Copyright © 2019 Vertical M2M</p>
+  </footer>
+</div>
+</body>
+</html>

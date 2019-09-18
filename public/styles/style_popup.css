@@ -1,0 +1,152 @@
+*
+{
+	font-family: Arial;
+}
+
+body
+{
+	background:#1797c0;
+}
+
+div#pageWrapper
+{
+	background:white;
+	width:510px;
+	height:450px;
+	margin:25px 0px 0px 25px;
+	border-radius:20px;
+	padding:20px;
+}
+
+div#pageWrapper>header
+{
+	display:table;
+	width:100%;
+}
+
+div#pageWrapper>header>*
+{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+div#pageWrapper>header>*:first-child
+{
+	margin-right:5px;
+	width:50px;
+}
+
+div#pageWrapper>header>*:last-child
+{
+	text-align:right;
+	vertical-align:top;
+}
+
+div#pageWrapper>header>*:nth-child(2),
+div#pageWrapper>header>*:last-child
+{
+	width:230px;
+}
+
+div#pageWrapper>header>section>h1
+{
+	font-weight:bold;
+	font-size:8pt;
+	line-height:20px;
+	height:20px;
+}
+
+div#pageWrapper>header>section>h2
+{
+	font-weight:normal;
+	font-size:18pt;
+	line-height:30px;
+	height:30px;
+	padding-left:5px;
+}
+
+section#contentPopup
+{
+	margin-top:20px;
+}
+
+section#contentPopup>form>table
+{
+	width:100%;
+}
+
+section#contentPopup *
+{
+	font-size:12pt;
+}
+
+section#contentPopup textarea,
+section#contentPopup select,
+section#contentPopup input
+{
+	display:block;
+	margin:0px;
+}
+
+section#contentPopup>form tr>td:first-child,
+section#contentPopup tr>td:first-child
+{
+	text-align:right;
+	vertical-align:top;
+	width:100px;
+	line-height:24px;
+}
+
+section#contentPopup>form tr>td:last-child,
+section#contentPopup>table tr>td:last-child
+{
+	width:410px;
+	padding:0px 0px 10px 5px;
+}
+
+section#contentPopup>table tr>td:last-child
+{
+	line-height:24px;
+}
+
+textarea
+{
+	resize:none;
+	width:400px;
+	line-height:14pt;
+	max-height:80pt;
+}
+
+section#contentPopup>table tr>td>textarea
+{
+	max-height:100pt;
+	border:1px solid white;
+}
+
+.button 
+{
+	border:0;
+	cursor:pointer;
+	display:inline-block;
+	line-height:20px;
+	vertical-align:middle;
+	padding:3px 6px;
+	background:linear-gradient(to bottom, #62B9D6, #1796C0);
+	border-radius:2px;
+	color:white;
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+	font-weight:bold;
+	text-decoration:none;
+	box-shadow:0px 0px 2px rgba(0, 0, 0, 0.5), inset 0px 1px 0px rgba(255, 255, 255, 0.4);
+	font-size:10pt !important;
+}
+
+.button:hover
+{
+	background:linear-gradient(to bottom, #6FCBF3, #35B3E9);
+}
+
+.button:active
+{
+	box-shadow:inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,19 @@
+// With a fixed category
+
+if isCalledByPayload() then
+	local array = getInputPayload()
+	local payload = tonumber(array['Payload'])
+	local timestamp = tonumber(array['Timestamp'])
+	setOutputRecordDataWithTimestamp(5,payload,timestamp)
+end
+
+
+// With a variable category
+
+if isCalledByPayload() then
+	local array = getInputPayload()
+	local datatype = tonumber(array['Type'])
+	local payload = tonumber(array['Payload'])
+	local timestamp = tonumber(array['Timestamp'])
+	setOutputRecordDataWithTimestamp(datatype,payload,timestamp)
+end
